@@ -3,4 +3,5 @@ using DesignPatterns.SolidPrinciples;
 
 Console.WriteLine("Hello, World!");
 
-object p = new SingleResponsibilityPrinciple();
+//object p = new SingleResponsibilityPrinciple();
+object ocp = new Open_ClosedPrinciple();

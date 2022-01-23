@@ -5,4 +5,5 @@ Console.WriteLine("Hello, World!");
 
 //object p = new SingleResponsibilityPrinciple();
 //object ocp = new Open_ClosedPrinciple();
-object lsp = new LiskovSubstitutionPrinciple();
+//object lsp = new LiskovSubstitutionPrinciple();
+object dip = new DependencyInversionPrinciple();

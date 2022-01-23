@@ -9,8 +9,10 @@
 
   <ItemGroup>
     <None Remove="SolidPrinciples\" />
+    <None Remove="Builder\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="SolidPrinciples\" />
+    <Folder Include="Builder\" />
   </ItemGroup>
 </Project>

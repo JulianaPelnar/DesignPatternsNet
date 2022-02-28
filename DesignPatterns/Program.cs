@@ -8,4 +8,5 @@ Console.WriteLine("Hello, World!");
 //object ocp = new Open_ClosedPrinciple();
 //object lsp = new LiskovSubstitutionPrinciple();
 //object dip = new DependencyInversionPrinciple();
-object lwb = new LifeWithoutBuilder();
+//object lwb = new LifeWithoutBuilder();
+object b = new Builder();

@@ -10,4 +10,5 @@ Console.WriteLine("Hello, World!");
 //object dip = new DependencyInversionPrinciple();
 //object lwb = new LifeWithoutBuilder();
 //object b = new Builder();
-object bf = new FluentBuilder();
+//object bf = new FluentBuilder();
+object bfg = new FluentBuilderInheritanceRecursiveGenerics();

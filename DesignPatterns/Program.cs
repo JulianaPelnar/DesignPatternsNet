@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using DesignPatterns.Builder;
+using DesignPatterns.Builder.FunctionalBuilder;
 using DesignPatterns.SolidPrinciples;
 
 Console.WriteLine("Hello, World!");
@@ -12,4 +13,5 @@ Console.WriteLine("Hello, World!");
 //object b = new Builder();
 //object bf = new FluentBuilder();
 //object bfg = new FluentBuilderInheritanceRecursiveGenerics();
-object sw = new StepwiseBuilder();
+//object sw = new StepwiseBuilder();
+object fb = new FunctionalBuilder();

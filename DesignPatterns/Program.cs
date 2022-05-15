@@ -11,4 +11,5 @@ Console.WriteLine("Hello, World!");
 //object lwb = new LifeWithoutBuilder();
 //object b = new Builder();
 //object bf = new FluentBuilder();
-object bfg = new FluentBuilderInheritanceRecursiveGenerics();
+//object bfg = new FluentBuilderInheritanceRecursiveGenerics();
+object sw = new StepwiseBuilder();

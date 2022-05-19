@@ -2,6 +2,7 @@
 using DesignPatterns.Builder;
 using DesignPatterns.Builder.FacetedBuilder;
 using DesignPatterns.Builder.FunctionalBuilder;
+using DesignPatterns.Factory;
 using DesignPatterns.SolidPrinciples;
 
 Console.WriteLine("Hello, World!");
@@ -17,3 +18,4 @@ Console.WriteLine("Hello, World!");
 //object sw = new StepwiseBuilder();
 //object fb = new FunctionalBuilder();
 //object fab = new FacetedBuilder();
+object fm = new FactoryMethod();

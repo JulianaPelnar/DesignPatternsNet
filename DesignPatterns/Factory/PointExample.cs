@@ -1,5 +1,5 @@
 ﻿using System;
-namespace DesignPatterns.Factory
+namespace DesignPatterns.Factory.PointExample
 {
 	public enum CoordinateSystem{
 		Cartesian,

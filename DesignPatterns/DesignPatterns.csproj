@@ -10,9 +10,11 @@
   <ItemGroup>
     <None Remove="SolidPrinciples\" />
     <None Remove="Builder\" />
+    <None Remove="Factory\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="SolidPrinciples\" />
     <Folder Include="Builder\" />
+    <Folder Include="Factory\" />
   </ItemGroup>
 </Project>

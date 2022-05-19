@@ -18,4 +18,5 @@ Console.WriteLine("Hello, World!");
 //object sw = new StepwiseBuilder();
 //object fb = new FunctionalBuilder();
 //object fab = new FacetedBuilder();
-object fm = new FactoryMethod();
+//object fm = new FactoryMethod();
+object otbr = new ObjectTrackingAndBulkReplacement();

@@ -3,6 +3,7 @@ using DesignPatterns.Builder;
 using DesignPatterns.Builder.FacetedBuilder;
 using DesignPatterns.Builder.FunctionalBuilder;
 using DesignPatterns.Factory;
+using DesignPatterns.Factory.InnerFactory;
 using DesignPatterns.SolidPrinciples;
 
 Console.WriteLine("Hello, World!");
@@ -19,4 +20,5 @@ Console.WriteLine("Hello, World!");
 //object fb = new FunctionalBuilder();
 //object fab = new FacetedBuilder();
 //object fm = new FactoryMethod();
-object otbr = new ObjectTrackingAndBulkReplacement();
+//object otbr = new ObjectTrackingAndBulkReplacement();
+object inf = new InnerFactory();

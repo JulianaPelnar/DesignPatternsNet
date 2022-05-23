@@ -21,4 +21,5 @@ Console.WriteLine("Hello, World!");
 //object fab = new FacetedBuilder();
 //object fm = new FactoryMethod();
 //object otbr = new ObjectTrackingAndBulkReplacement();
-object inf = new InnerFactory();
+//object inf = new InnerFactory();
+object af = new AbstractFactory();

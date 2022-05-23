@@ -6,6 +6,11 @@ using DesignPatterns.Factory;
 using DesignPatterns.Factory.OCP;
 using DesignPatterns.Factory.InnerFactory;
 using DesignPatterns.SolidPrinciples;
+using DesignPatterns.Prototype;
+using DesignPatterns.Prototype.CopyConstructors;
+using DesignPatterns.Prototype.EDCI;
+using DesignPatterns.Prototype.PrototypeInheritance;
+using DesignPatterns.Prototype.CTS;
 
 Console.WriteLine("Hello, World!");
 
@@ -24,4 +29,9 @@ Console.WriteLine("Hello, World!");
 //object otbr = new ObjectTrackingAndBulkReplacement();
 //object inf = new InnerFactory();
 //object af = new AbstractFactory();
-object afOCP = new AbstractFactoryOCP();
+//object afOCP = new AbstractFactoryOCP();
+//object icib = new ICloneableIsBad();
+//object cc = new CopyConstructors();
+//object edci = new ExplicitDeepCopyInterface();
+//object pi = new PrototypeInheritance();
+object cts = new CopyThroughSerialization();

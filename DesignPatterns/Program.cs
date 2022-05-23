@@ -3,6 +3,7 @@ using DesignPatterns.Builder;
 using DesignPatterns.Builder.FacetedBuilder;
 using DesignPatterns.Builder.FunctionalBuilder;
 using DesignPatterns.Factory;
+using DesignPatterns.Factory.OCP;
 using DesignPatterns.Factory.InnerFactory;
 using DesignPatterns.SolidPrinciples;
 
@@ -22,4 +23,5 @@ Console.WriteLine("Hello, World!");
 //object fm = new FactoryMethod();
 //object otbr = new ObjectTrackingAndBulkReplacement();
 //object inf = new InnerFactory();
-object af = new AbstractFactory();
+//object af = new AbstractFactory();
+object afOCP = new AbstractFactoryOCP();

@@ -42,6 +42,9 @@ namespace DesignPatterns.Factory
     }
     public class HotDrinkMachine
     {
+        // This code here violates the open-closed principle since, in case there's need
+        // to add a new drink, there's a need to modify the code.
+        // A solution is showed on AbstractFactoryOCP class.
         public enum AvailableDrink
         {
             Coffee, Tea

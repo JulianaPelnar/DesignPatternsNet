@@ -12,11 +12,30 @@
     <None Remove="Builder\" />
     <None Remove="Factory\" />
     <None Remove="Prototype\" />
+    <None Remove="Singleton\" />
+    <None Remove="morelinq" />
+    <None Remove="NUnit" />
+    <None Remove="Autofac" />
+    <None Remove="NUnit3TestAdapter" />
+    <None Remove="Microsoft.NET.Test.Sdk" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="SolidPrinciples\" />
     <Folder Include="Builder\" />
     <Folder Include="Factory\" />
     <Folder Include="Prototype\" />
+    <Folder Include="Singleton\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="morelinq" Version="3.3.2" />
+    <PackageReference Include="NUnit" Version="3.13.3" />
+    <PackageReference Include="Autofac" Version="6.4.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.2.0" />
+    <PackageReference Include="NUnit3TestAdapter" Version="4.2.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="Singleton\capitals.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 </Project>

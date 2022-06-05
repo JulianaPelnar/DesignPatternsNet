@@ -11,6 +11,7 @@ using DesignPatterns.Prototype.CopyConstructors;
 using DesignPatterns.Prototype.EDCI;
 using DesignPatterns.Prototype.PrototypeInheritance;
 using DesignPatterns.Prototype.CTS;
+using DesignPatterns.Singleton;
 
 Console.WriteLine("Hello, World!");
 
@@ -34,4 +35,8 @@ Console.WriteLine("Hello, World!");
 //object cc = new CopyConstructors();
 //object edci = new ExplicitDeepCopyInterface();
 //object pi = new PrototypeInheritance();
-object cts = new CopyThroughSerialization();
+//object cts = new CopyThroughSerialization();
+//object si = new SingletonImplementation();
+//object ms = new Monostate();
+//object pts = new PerThreadSingletonEx();
+object ac = new AmbientContext();

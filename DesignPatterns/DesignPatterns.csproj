@@ -19,6 +19,7 @@
     <None Remove="NUnit3TestAdapter" />
     <None Remove="Microsoft.NET.Test.Sdk" />
     <None Remove="CodingExercises\" />
+    <None Remove="Adapter\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="SolidPrinciples\" />
@@ -27,6 +28,7 @@
     <Folder Include="Prototype\" />
     <Folder Include="Singleton\" />
     <Folder Include="CodingExercises\" />
+    <Folder Include="Adapter\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="morelinq" Version="3.3.2" />

@@ -20,6 +20,7 @@
     <None Remove="Microsoft.NET.Test.Sdk" />
     <None Remove="CodingExercises\" />
     <None Remove="Adapter\" />
+    <None Remove="Bridge\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="SolidPrinciples\" />
@@ -29,6 +30,7 @@
     <Folder Include="Singleton\" />
     <Folder Include="CodingExercises\" />
     <Folder Include="Adapter\" />
+    <Folder Include="Bridge\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="morelinq" Version="3.3.2" />

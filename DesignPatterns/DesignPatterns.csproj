@@ -21,6 +21,7 @@
     <None Remove="CodingExercises\" />
     <None Remove="Adapter\" />
     <None Remove="Bridge\" />
+    <None Remove="Composite\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="SolidPrinciples\" />
@@ -31,6 +32,7 @@
     <Folder Include="CodingExercises\" />
     <Folder Include="Adapter\" />
     <Folder Include="Bridge\" />
+    <Folder Include="Composite\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="morelinq" Version="3.3.2" />

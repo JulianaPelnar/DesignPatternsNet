@@ -24,7 +24,7 @@ namespace DesignPatterns.CodingExercises.Composite
         }
     }
 
-    public class ManyValues : List<int>
+    public class ManyValues : List<int>, IValueContainer
     {
     }
 

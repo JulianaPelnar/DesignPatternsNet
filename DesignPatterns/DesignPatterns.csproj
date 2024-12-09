@@ -22,6 +22,10 @@
     <None Remove="Adapter\" />
     <None Remove="Bridge\" />
     <None Remove="Composite\" />
+    <None Remove="Decorator\" />
+    <None Remove="Facade\" />
+    <None Remove="JetBrains.dotMemoryUnit" />
+    <None Remove="FlyWeight\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="SolidPrinciples\" />
@@ -33,6 +37,9 @@
     <Folder Include="Adapter\" />
     <Folder Include="Bridge\" />
     <Folder Include="Composite\" />
+    <Folder Include="Decorator\" />
+    <Folder Include="Facade\" />
+    <Folder Include="FlyWeight\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="morelinq" Version="3.3.2" />
@@ -40,6 +47,7 @@
     <PackageReference Include="Autofac" Version="6.4.0" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.2.0" />
     <PackageReference Include="NUnit3TestAdapter" Version="4.2.1" />
+    <PackageReference Include="JetBrains.dotMemoryUnit" Version="3.2.20220510" />
   </ItemGroup>
   <ItemGroup>
     <None Update="Singleton\capitals.txt">
